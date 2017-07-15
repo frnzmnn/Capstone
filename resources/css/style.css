@@ -17,8 +17,6 @@ body {
 
 .flex {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
   align-items: center;
 }
 
@@ -48,32 +46,35 @@ header  {
 }
 
 .banner .image img {
-  margin: 2rem 5.5rem 2rem 1.5rem;
+  margin: 2rem 2.5rem 2rem 1.5rem;
   width: 65%;
 }
 
 .banner .article {
-  flex: 1;
+  width: 45%;
   text-align: left;
 }
 
 .article h1 {
   font-size: 3rem;
   font-weight: bold;
-  margin: 2rem 1rem;
+  margin: 2rem 0rem;
 }
 
 .article h2 {
   font-size: 2rem;
-  margin: 2rem 1rem;
+  margin: 2rem 0rem;
 }
 
 .banner .button {
   background-color: rgb(63, 90, 90);
   color: rgb(255, 255, 255);
-  margin: 2rem 1rem;
+  margin: 2rem 0rem;
+  height: 2.5rem;
 }
 
 .banner .button span {
   margin: 0.5rem 2rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
 }
