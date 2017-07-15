@@ -1,0 +1,61 @@
+html {
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  margin: 0rem 0rem;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+header  {
+  background-color: rgb(255, 255, 255);
+  height: 4rem;
+}
+
+.logo {
+  margin-left: 1.5rem;
+}
+
+.login {
+  margin-right: 1rem;
+}
+.login span {
+  margin: 0rem 0.5rem;
+}
+
+.login span a {
+  text-decoration: none;
+  color: rgb(102, 153, 153);
+}
+
+.banner {
+  background-color: rgb(225, 234, 234);
+}
+.banner .image img {
+  margin: 2rem 5.5rem 2rem 1.5rem;
+  width: 65%;
+}
+.banner .article {
+  flex: 1;
+  text-align: left;
+}
+
+.article h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
