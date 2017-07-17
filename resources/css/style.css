@@ -15,6 +15,13 @@ body {
   align-items: center;
 }
 
+.flex-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .flexcontent1 {
   display: flex;
   flex-wrap: wrap;
@@ -114,7 +121,7 @@ header  {
   margin-left: 1.5rem;
 }
 
-.teasertext h1 {
+.teasertext h1, .program h1 {
   font-size: 2.5rem;
   font-weight: bold;
   margin-left: 1.5rem;
@@ -132,9 +139,14 @@ header  {
   margin-left: 2rem;
 }
 
-.bites .biteimage img {
-  width: 55%;
-  margin: 2rem;
+.bites .biteimage {
+  width: 35%;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.bites .biteimage img{
+  width: 100%;
 }
 
 .bites .bitetext {
@@ -157,4 +169,32 @@ header  {
   margin-bottom: 0.5rem;
   text-decoration: none;
   color: rgb(0, 153, 255);
+}
+
+.highlight {
+  background-color: rgb(225, 234, 234);
+}
+
+.program {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: rgb(225, 234, 234);
+}
+
+.program h1 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.course {
+  width: 25%;
+  margin: 1rem;
+}
+
+.course .courseimage img {
+  width: 100%;
+}
+
+.coursetext {
+  background-color: rgb(255, 255, 255);
 }
