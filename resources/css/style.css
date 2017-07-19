@@ -240,14 +240,20 @@ header  {
 .mobile .overview {
   margin-bottom: 2rem;
 }
+
 .program h1, .thesis h1 {
-  padding-top: 2rem;
-  margin-bottom: 2rem;
+  padding: 2rem 0rem;;
   text-align: center;
   font-size: 2.5rem;
   font-weight: bold;
 }
 
+.mobile .thesis h1 {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
 .course {
   width: 25%;
   margin: 1rem;
@@ -285,6 +291,13 @@ header  {
 
 .video {
   width: 55%;
+  margin-left: 1.5rem;
+  margin-right: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.mobile .video {
+  width: 100%;
   margin-left: 1.5rem;
   margin-right: 1rem;
   margin-bottom: 1.5rem;
