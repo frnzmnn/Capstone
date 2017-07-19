@@ -6,7 +6,6 @@
   .desktop {display: none;}
 }
 
-
 html {
   font-size: 16px;
   line-height: 1.4;
@@ -80,6 +79,12 @@ header  {
   margin-right: 1.25rem;
 }
 
+.mobile .banner .box {
+  width: 100%;
+  height: 180px;
+  background-color: rgb(102, 102, 102);
+}
+
 .banner .image img {
   margin: 2rem 2.5rem 2rem 1.5rem;
   width: 100%;
@@ -91,6 +96,18 @@ header  {
   margin-left: 1.25rem;
 }
 
+.mobile .banner .article {
+  width: 100%;
+  text-align: left;
+  margin-left: 0rem;
+  padding-top: 2rem;
+
+}
+
+.article h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
 .article h1, .teasertext h1 {
   font-size: 3rem;
   font-weight: bold;
@@ -100,10 +117,19 @@ header  {
 .banner .button {
   background-color: rgb(63, 90, 90);
   color: rgb(255, 240, 255);
-  margin: 2rem 0rem;
+  margin: 3rem 0rem;
   padding: 0.5rem 6rem;
   height: 2.5rem;
   width: 35%;
+}
+
+.mobile .banner .button {
+  background-color: rgb(63, 90, 90);
+  color: rgb(255, 240, 255);
+  margin: 1rem 2rem;
+  padding: 0.5rem 6rem;
+  height: 3.5rem;
+  width: 80%;
 }
 
 .banner .button span {
@@ -111,6 +137,11 @@ header  {
   text-align: center;
 }
 
+.mobile .banner .button span {
+  margin: 0.5rem 2rem;
+  text-align: center;
+  font-weight: bold;
+}
 .element {
   width: 55%;
 }
@@ -143,20 +174,34 @@ header  {
   margin-left: 2rem;
 }
 
+.mobile .bites {
+  width: 100%;
+}
+
 .bites .biteimage {
   width: 35%;
   margin-top: 2rem;
   margin-left: 2rem;
 }
 
+.mobile .bites .biteimage {
+  width: 100%;
+  margin-top: 2rem;
+}
+
 .bites .biteimage img {
   width: 100%;
+  margin-left: -2rem;
 }
 
 .bites .bitetext {
   margin-left: 1rem;
 }
 
+.mobile .bites .bitetext {
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
 .bites .bitetext h2, .course h2, .videotext h2 {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
@@ -185,6 +230,16 @@ header  {
   background-color: rgb(225, 234, 234);
 }
 
+.mobile .program {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(225, 234, 234);
+}
+
+.mobile .overview {
+  margin-bottom: 2rem;
+}
 .program h1, .thesis h1 {
   padding-top: 2rem;
   margin-bottom: 2rem;
@@ -196,6 +251,16 @@ header  {
 .course {
   width: 25%;
   margin: 1rem;
+}
+
+.mobile .course {
+  width: 100%;
+  margin-top: 0.5rem;
+  background-color: rgb(225, 234, 234);
+}
+
+.mobile .course h2 {
+  padding: 1rem 1rem 1rem 1rem;
 }
 
 .course .courseimage img {
