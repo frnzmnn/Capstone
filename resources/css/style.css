@@ -9,7 +9,7 @@
 html {
   font-size: 16px;
   line-height: 1.4;
-  font-family: Helvetica, sans-serif;
+  font-family: "Muli", sans-serif;
 }
 
 body {
@@ -52,14 +52,20 @@ body {
 header  {
   background-color: rgb(255, 255, 255);
   height: 4rem;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
   margin-left: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .login {
   margin-right: 1rem;
+  justify-content: space-between;
+  align-items: center;
 }
 .login span {
   margin: 0rem 0.5rem;
@@ -101,7 +107,6 @@ header  {
   text-align: left;
   margin-left: 0rem;
   padding-top: 2rem;
-
 }
 
 .article h2 {
@@ -142,8 +147,16 @@ header  {
   text-align: center;
   font-weight: bold;
 }
+
+.blog {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
 .element {
   width: 55%;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .element .teaserimage img {
@@ -171,7 +184,16 @@ header  {
 .bites {
   width: 40%;
   text-align: left;
-  margin-left: 2rem;
+  margin-left: 1.5rem;
+}
+
+.example {
+  border: 1px solid rgb(225, 234, 234);
+  margin-left: 1.5rem;
+}
+
+.first {
+  margin-top: 2rem;
 }
 
 .mobile .bites {
@@ -180,8 +202,16 @@ header  {
 
 .bites .biteimage {
   width: 35%;
-  margin-top: 2rem;
-  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.thesis .bites .biteimage {
+  width: 35%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
 }
 
 .mobile .bites .biteimage {
@@ -191,7 +221,6 @@ header  {
 
 .bites .biteimage img {
   width: 100%;
-  margin-left: -2rem;
 }
 
 .bites .bitetext {
@@ -235,6 +264,11 @@ header  {
   margin-bottom: 2rem;
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(225, 234, 234);
+}
+
+.overview {
+  justify-content: center;
+  align-items: center;
 }
 
 .mobile .overview {
